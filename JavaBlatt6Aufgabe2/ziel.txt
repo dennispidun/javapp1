@@ -1,0 +1,8 @@
+Hallo Graf Zahl. Bitte geben Sie die Unter- und Obergrenze für die Suche nach knuddeligen Zahlen ein:
+1
+15
+Aber Herr Graf. Die Untergrenze ist kleiner als 2 und damit nicht gültig. Bitte geben Sie Unter- und Obergrenze erneut ein.
+2
+55
+Die knuddeligen Zahlen im Bereich 2 bis 55 sind: 6, 12, 18, 20, 24, 28, 30, 36, 40, 42, 48, 54
+Auf Wiedersehen, Herr Graf.

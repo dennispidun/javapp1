@@ -1,0 +1,7 @@
+Taschenrechner
+Was moechten Sie tun?
+  <a> - Addieren
+  <b> - Subtrahieren
+  <c> - Multiplizieren
+  <d> - Dividieren
+  Abbruch mit jedem anderen Zeichen.

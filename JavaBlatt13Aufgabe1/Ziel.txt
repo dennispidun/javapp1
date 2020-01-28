@@ -1,0 +1,78 @@
+Willkommen im Kassensystem, bitte treffen Sie eine Auswahl:
+R: Neue Rechnung anlegen
+Z: Gespeicherte Rechnungen anzeigen
+W: Neue Waren dem Warenlager hinzufuegen
+A: Waren aus dem Warenlager anzeigen
+E: Programm beenden
+w
+Bitte geben Sie den Namen der Ware ein: 
+Blumentopf
+Bitte geben Sie die Id der Ware ein: 
+1
+Bitte geben Sie den Preis der Ware ein: 
+23.43
+Ware wurde hinzugefuegt.
+Willkommen im Kassensystem, bitte treffen Sie eine Auswahl:
+R: Neue Rechnung anlegen
+Z: Gespeicherte Rechnungen anzeigen
+W: Neue Waren dem Warenlager hinzufuegen
+A: Waren aus dem Warenlager anzeigen
+E: Programm beenden
+w
+Bitte geben Sie den Namen der Ware ein: 
+Rose
+Bitte geben Sie die Id der Ware ein: 
+2.43
+Formatfehler. Bitte nochmal.
+2
+Bitte geben Sie den Preis der Ware ein: 
+2.43
+Ware wurde hinzugefuegt.
+Willkommen im Kassensystem, bitte treffen Sie eine Auswahl:
+R: Neue Rechnung anlegen
+Z: Gespeicherte Rechnungen anzeigen
+W: Neue Waren dem Warenlager hinzufuegen
+A: Waren aus dem Warenlager anzeigen
+E: Programm beenden
+r
+Bitte geben Sie die ID der Ware ein: 
+1
+Rechnung mit der Ware (ID: 1) wurde angelegt.
+Bitte geben Sie die ID der Ware ein: 
+2
+Rechnung mit der Ware (ID: 2) wurde angelegt.
+Bitte geben Sie die ID der Ware ein: 
+
+Rechnungseingabe beendet
+Willkommen im Kassensystem, bitte treffen Sie eine Auswahl:
+R: Neue Rechnung anlegen
+Z: Gespeicherte Rechnungen anzeigen
+W: Neue Waren dem Warenlager hinzufuegen
+A: Waren aus dem Warenlager anzeigen
+E: Programm beenden
+z
+
+Dies sind die aktuellen Rechnungen im System: 
+Rechnung vom 04.02.2019 mit folgenden Waren: 
+	Ware [ID=1, Name=Blumentopf, Preis=23,43]
+	Ware [ID=2, Name=Rose, Preis=2,43]
+Gesamtpreis: 25.86
+
+Willkommen im Kassensystem, bitte treffen Sie eine Auswahl:
+R: Neue Rechnung anlegen
+Z: Gespeicherte Rechnungen anzeigen
+W: Neue Waren dem Warenlager hinzufuegen
+A: Waren aus dem Warenlager anzeigen
+E: Programm beenden
+a
+
+Dies sind die aktuellen Waren im System: 
+Ware [ID=1, Name=Blumentopf, Preis=23,43]
+Ware [ID=2, Name=Rose, Preis=2,43]
+Willkommen im Kassensystem, bitte treffen Sie eine Auswahl:
+R: Neue Rechnung anlegen
+Z: Gespeicherte Rechnungen anzeigen
+W: Neue Waren dem Warenlager hinzufuegen
+A: Waren aus dem Warenlager anzeigen
+E: Programm beenden
+e

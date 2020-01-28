@@ -1,0 +1,13 @@
+Was moechten Sie tun?
+ 1: Prim aufrufen
+ 2: Sum aufrufen
+Jede andere Zahl ruft Prim und danach Sum auf
+0
+Prim: Prueft ob eine eingebende Zahl eine Primzahl ist.
+Bitte geben Sie eine Zahl ein, auf welche der Primzahlentest angewendet werden soll:
+-2
+Die Zahl muss groesser als 1 sein und dies ist -2 nicht!
+Sum: Die Zahlen von 1 bis zu einer eingegeben Zahl summiert.
+Bitte geben Sie eine Zahl ein bis zu der aufsummiert werden soll:
+13
+91

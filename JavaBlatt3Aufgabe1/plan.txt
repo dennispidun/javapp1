@@ -1,0 +1,12 @@
+<<Hauptprogramm2 mit Scanner Uebung03 in Uebung03.java>>
+   <<Schreibe "Bitte Name eingeben:" auf die Konsole>>
+   <<Deklariere Variable Typ String Name userName mit Wert von scanner>>
+   <<Schreibe "Hallo <userName>" auf die Konsole>>
+   <<Schreibe "Bitte erste Ganzzahl eingeben:" auf die Konsole>>
+   <<Deklariere Variable Typ int Name zahl1 mit Wert von Scanner>>
+   <<Schreibe "Bitte zweite Ganzzahl eingeben:" auf die Konsole>>
+   <<Deklariere Variable Typ int Name zahl2 mit Wert von Scanner>> 
+   <<Schreibe den Wert von zahl1 auf die Konsole>>
+   <<Schreibe den Wert von zahl2 auf die Konsole>>
+   <<Schreibe die Differenz von zahl1 und zahl2 auf die Konsole>>
+   <<Schreibe das Ergebnis von "(zahl1 + zahl2) % 5 == 0" auf die Konsole>>

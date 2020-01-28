@@ -1,0 +1,74 @@
+// Blatt 9 Aufgabe 1: Tobias Wenck, Dennis Pidun; JP051 
+
+package de.weihnachten;
+
+<<Hauptprogramm Weihnachten mit Scanner in Weihnachten.java>>
+
+    <<Deklariere Variable Typ boolean Name wrongInput mit Wert true>>
+    <<Deklariere Variable Typ int Name numRentiere mit Wert 0>>
+    <<Deklariere Variable Typ int Name numGeschenke mit Wert 0>>
+    <<Deklariere Variable Typ double Name numFutter mit Wert 0>>
+    
+    
+    do {
+        <<Abfrage "Bitte geben Sie eine positive Zahl für die Anzahl an Rentieren ein">>
+        <<Deklariere Variable Typ int Name numRentiere mit Wert von Scanner>>
+        if (numRentiere > 0) {
+            <<Belege Variable Name wrongInput mit Wert false>>
+        } else {
+            <<Schreibe Hinweis "Die Eingabe muss größer als Null sein!" adK>>
+        }
+    } while (wronginput)
+    
+    <<Belege Variable Name wrongInput mit Wert true>>
+    do {
+        <<Abfrage "Bitte geben Sie eine positive Zahl für die Anzahl an Geschenken ein">>
+        <<Deklariere Variable Typ int Name numGeschenke mit Wert von Scanner>>
+        if (numGeschenke > 0) {
+            <<Belege Variable Name wrongInput mit Wert false>>
+        } else {
+            <<Schreibe Hinweis "Die Eingabe muss größer als Null sein!" adK>>
+        }
+    } while (wronginput)
+    
+    <<Belege Variable Name wrongInput mit Wert true>>
+    do {
+        <<Abfrage "Bitte geben Sie eine positive Zahl für die Größe des Futtervorrates ein">>
+        <<Deklariere Variable Typ int Name numFutter mit Wert von Scanner>>
+        if (numGeschenke > 0) {
+            <<Belege Variable Name wrongInput mit Wert false>>
+        } else {
+            <<Schreibe Hinweis "Die Eingabe muss größer als Null sein!" adK>>
+        }
+    } while (wronginput)
+        
+    input.close();
+    
+    
+    Geschenk[] geschenke = new Geschenk[numGeschenke];
+    <<Für alle Elemente i in geschenke>>
+        geschenke[i] = new Geschenk();
+        
+    Rentier[] rentiere = new Rentier[numRentiere];
+    <<Für alle Elemente i in rentiere>>
+        rentiere[i] = new Rentier();
+    
+    <<Deklariere neue Variable Typ Schlitten Name cl500 mit den Parametern geschenke, rentiere>>
+    <<Deklariere neue Variable Typ Weihnachtsmann Name grinch mit den Parametern numFutter, cl500>>
+    
+    
+    <<Falls cl500.kannFliegen()>>
+        <<Schreibe Hinweis "Der Schlitten hat " + cl500.getAnzahlGeschenke() + " Geschenk(e), fährt mit einer Rentierstärke von "  + cl500.getAnzahlRentiere() + " und wiegt " + cl500.getGewicht() + "kg. Dies sind die Rentiere:" adK>>
+        <<Für alle Elemente i in numRentiere>>
+            System.out.println(rentiere[i].asString());
+        do {
+            grinch.naechstesGeschenkAusliefern();
+            <<Falls grinch.kannNochFuettern()>>
+                grinch.fuettern()
+            <<Sonst>>
+                <<Falls !grinch.istFertig() dann schreibe Hinweis "Der Vorrat reicht nicht mehr, um weiter auszuliefern!" adK>>
+                return;
+        } while (!grinch.istFertig)
+        <<Schreibe Hinweis "Es sind alle Geschenke ausgeliefert." adK>>
+    <<Sonst>>
+        <<Schreibe Hinweis "Der Schlitten kann nicht fliegen." adK>>

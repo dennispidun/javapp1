@@ -1,0 +1,11 @@
+Bitte Name eingeben:
+Dennis
+Hallo Dennis
+Bitte erste Ganzzahl eingeben:
+10
+Bitte zweite Ganzzahl eingeben:
+5
+Zahl 1 hat den Wert: 10
+Zahl 2 hat den Wert: 5
+Die Differenz der Variablen zahl1 und zahl2 ist: 5
+Ist (zahl1+zahl2) durch 5 teilbar: true

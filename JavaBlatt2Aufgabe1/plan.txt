@@ -1,0 +1,8 @@
+<<Hauptprogramm Ausdruecke in Ausdruecke.java>>
+  <<Schreibe das Ergebnis von 1024 - 621 auf die Konsole>>
+  <<Schreibe das Ergebnis von 22/7 (Ganzzahl-Division) auf die Konsole>>
+  <<Schreibe das Ergebnis von 22%7 (Restwert) auf die Konsole>>
+  <<Schreibe das Ergebnis von 91.23 + 18.21 auf die Konsole>>
+  <<Schreibe das Ergebnis von 128 % 2 == 0 auf die Konsole>>
+  <<Schreibe das Ergebnis von 7 > 1 && 7 < 19 auf die Konsole>>
+  <<Schreibe das Ergebnis von -1.0 < 0.5 || -1.0 > 10.2 auf die Konsole>>

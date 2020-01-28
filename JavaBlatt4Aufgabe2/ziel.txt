@@ -1,0 +1,3 @@
+Bitte geben Sie eine Zahl ein
+23
+23%3 = 2

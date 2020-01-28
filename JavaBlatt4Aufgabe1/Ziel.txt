@@ -1,0 +1,7 @@
+Bitte geben Sie eine ganze Zahl ein:
+4
+Bitte geben Sie eine weitere ganze Zahl ein:
+9
+Bitte geben Sie eine letzte ganze Zahl ein:
+5
+Die größte der drei Zahlen ist die 9.

@@ -1,0 +1,55 @@
+Waehlen Sie bitte einen Menuepunkt: 
+	N: Neues Vehikel anlegen.
+	L: Vehikel l�schen
+	Z: Alle Vehikel anzeigen
+	E: Programm beenden.
+
+Wie lautet Ihre Eingabe: N
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welche Art von Fahrzeug wollen Sie abspeichern? (Auto/Traktor): Auto
+Wie lautet das Kennzeichen? (Format: B-B Z): B-B 1
+Wie viel Pferdestaerke hat Ihr Fahrzeug?: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Folgendes Fahrzeug wurde gespeichert: 
+ ~> Auto: Das Fahrzeug mit dem Kennzeichzen B-B 1hat eine Geschwingidkeit von 1PS und eine Leistung von 0.735kW, eine Steuer von 1.47 Euro und darf nicht auf der Autobahn fahren.
+
+
+
+
+Waehlen Sie bitte einen Menuepunkt: 
+	N: Neues Vehikel anlegen.
+	L: Vehikel l�schen
+	Z: Alle Vehikel anzeigen
+	E: Programm beenden.
+
+Wie lautet Ihre Eingabe: 

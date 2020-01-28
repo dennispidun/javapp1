@@ -1,0 +1,18 @@
+// Blatt 10 Aufgabe 1: Tobias Wenck, Dennis Pidun; JP051
+Inhalt der ArrayList (vor Hinzufuegen): 
+ ~> []
+
+Inhalt der ArrayList (nach Hinzufuegen): 
+ ~> [1, 2, 4, 3, 5]
+
+Inhalt der ArrayList (nach Entfernen): 
+ ~> [2, 3]
+
+Inhalt der LinkedList (vor Hinzufuegen): 
+ ~> []
+
+Inhalt der LinkedList (nach Hinzufuegen): 
+ ~> [z, y, x, w, v]
+
+Inhalt der LinkedList (nach Loeschen): 
+ ~> [y, w]

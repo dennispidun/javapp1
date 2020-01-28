@@ -1,0 +1,8 @@
+<<Hauptprogramm Taschenrechner in Taschenrechner.java>>
+  <<Schreibe Zeile "Taschenrechner" auf die Konsole>>
+  <<Schreibe Zeile "Was moechten Sie tun?" auf die Konsole>>
+  <<Schreibe Zeile "  <a> - Addieren" auf die Konsole>>
+  <<Schreibe Zeile "  <b> - Subtrahieren" auf die Konsole>>
+  <<Schreibe Zeile "  <c> - Multiplizieren" auf die Konsole>>
+  <<Schreibe Zeile "  <d> - Dividieren" auf die Konsole>>
+  <<Schreibe Zeile "  Abbruch mit jedem anderen Zeichen" auf die Konsole>>

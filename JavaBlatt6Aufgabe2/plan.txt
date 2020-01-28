@@ -1,0 +1,10 @@
+<<Hauptprogramm2 mit Scanner GrafZahl in GrafZahl.java>>
+   <<Deklariere Variable Typ Integer Name zahlA mit Wert von scanner>>
+   <<Deklariere Variable Typ Integer Name zahlB mit Wert von scanner>>
+   <<Überprüfe Eingabe von zahlA und zahlB in Unterprogramm pruefeEingabe(zahlA, zahlB)>>
+   
+   <<Wenn zahlA > zahlB werden zahlA und zahlB vertausche>>
+   <<Gib "Knuddelig-Status" für Zahlen im Zahlenbereich [zahlA; zahlB] auf der Konsole aus>>
+      <<Berechne "Knuddelig-Status" in Unterprogramm isKnuddelig(int zahl)>>
+        <<Für 1 bis zahl-1 addiere echte Teiler und lege sie in teilerSumme ab>>
+        <<Wenn teilerSumme >= zahl, gib true als "Knuddelig-Status" zurück>>

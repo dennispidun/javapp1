@@ -1,0 +1,59 @@
+<<Hauptprogramm Kasse in Kasse.java mit Scanner scanner>>
+	
+	<<Aufruf von menueAnzeigen() bis Benutzer "E" eingibt mit Scanner scanner>>
+		Scanner scanner = new Scanner(System.in);
+		String eingabe = scanner.nextLine();
+		<<Falls eingabe "R" ist rufe Unterprogramm neueRechnung() auf>>
+		<<Falls eingabe "Z" ist rufe Unterprogramm zeigeRechnungen() auf>>
+		<<Falls eingabe "W" ist rufe Unterprogramm neueWare() auf>>
+		<<Falls eingabe "A" ist rufe Unterprogramm warenZeigen() auf>>
+	
+	<<Unterprogramm menueAnzeigen() in Kasse>>
+		<<Ausgabe "Willkommen im Kassensystem, bitte treffen Sie eine Auswahl:" auf der Konsole>>
+		<<Ausgabe "R: Neue Rechnung anlegen" auf der Konsole>>
+		<<Ausgabe "Z: Gespeicherte Rechnungen anzeigen" auf der Konsole>>
+		<<Ausgabe "W: Neue Waren dem Warenlager hinzufuegen" auf der Konsole>>
+		<<Ausgabe "A: Waren aus dem Warenlager anzeigen" auf der Konsole>>
+		<<Ausgabe "E: Programm beenden" auf der Konsole>>
+		
+	<<Unterprogramm neueRechnung() in Kasse mit Scanner scanner>>
+		<<Wiederhole Eingabe solange bis eingabe leer ist>>
+			<<Ausgabe "Bitte geben Sie die ID der Ware ein: " auf der Konsole>>
+			String eingabe = scanner.nextLine();
+			<<Falls eingabe eine Zahl > 0 ist, suche Ware und erstelle neue Rechnung>>
+				<<Ausgabe "Rechnung mit der Ware (#ID) wurde angelegt." auf der Konsole>>
+			//<<Falls eingabe leer ist>>
+                //<<Ausgabe "Rechnungseingabe beendet" auf der Konsole>>	
+			<<Falls eingabe keine Zahl ist>>
+				<<Ausgabe "Eingabe muss eine positive Ganzzahl sein" auf der Konsole>>
+		
+	<<Unterprogramm zeigeRechnungen() in Kasse>>
+		<<Ausgabe "Dies sind die aktuellen Rechnungen im System: " auf der Konsole>>
+		<<Durchlaufe alle Rechnungen und gib diese auf der Konsole aus>>
+		
+	<<Unterprogramm neueWare() in Kasse mit Scanner scanner>>
+		<<Ausgabe "Bitte geben Sie den Namen der Ware ein: " auf der Konsole>>
+		String nameEingabe = "";
+		<<Wiederhole Eingabe solange bis nameEingabe korrekt (ein gueltiger Name) ist>>
+			nameEingabe = scanner.nextLine();
+			<<falls nameEingabe inkorrekt>>
+				<<Ausgabe "Name darf nicht leer sein!" auf der Konsole>>
+				
+        <<Ausgabe "Bitte geben Sie die Id der Ware ein: " auf der Konsole>>
+		Integer idEingabe = -1;
+		<<Wiederhole Eingabe solange bis idEingabe korrekt (> 0) ist>>
+			idEingabe = scanner.nextInt();
+			<<falls idEingabe inkorrekt>>
+				<<Ausgabe "ID muss positiv sein!" auf der Konsole>>
+		<<Ausgabe "Bitte geben Sie den Preis der Ware ein: " auf der Konsole>>
+		Double preisEingabe = -1.0;
+		<<Wiederhole Eingabe solange bis preisEingabe korrekt (>= 0) ist>>
+			preisEingabe = scanner.nextDouble();
+			<<falls preisEingabe inkorrekt>>
+				<<Ausgabe "Preis darf nicht negativ sein!" auf der Konsole>>		
+		<<Speichern der neuen Ware im Warenlager lager>>
+				
+	<<Unterprogramm zeigeWaren() in Kasse>>
+		<<Ausgabe "Dies sind die aktuellen Waren im System: " auf der Konsole>>
+		<<Durchlaufe alle Waren und gib diese auf der Konsole aus>>
+	

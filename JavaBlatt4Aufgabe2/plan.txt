@@ -1,0 +1,7 @@
+<<Hauptprogramm2 mit Scanner Uebung04A2 in Uebung04A2.java>>
+    <<Schreibe "Bitte geben Sie eine Zahl ein" auf die Konsole>>
+    <<Deklariere Variable Typ Integer Name eingabe mit Wert von scanner>>
+    <<Wenn eingabe durch 13 ohne Rest teilbar ist>>
+        <<Schreibe eingabe + "/7 ist " + (eingabe/7) auf die Konsole>>
+    <<Wenn eingabe nicht durch 13 ohne Rest teilbar ist>>
+        <<Schreibe eingabe + "%3 = "+ (eingabe%3) auf die Konsole>>
